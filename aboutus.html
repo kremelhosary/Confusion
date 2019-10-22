@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     
@@ -15,6 +17,23 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand mr-auto">Ristorante Con Fusion</a>
+                <button class="d-sm-none bg-primary nabvar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar" >
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar" >
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item "><a href="/index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item active"><a href="/aboutus.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contant</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    
 
     <header class="jumbotron bg-info">
         <div class="container">
@@ -31,6 +50,10 @@
 
     <div class="container">
         <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                <li class="breadcrumb-item active"><a >about</a></li>
+            </ol>
             <div class="col-12">
                <h3>About Us</h3>
                <hr>
